@@ -1,4 +1,4 @@
-pipeline {
+opipeline {
     agent any
     tools {
         jdk 'JDK21'
@@ -21,7 +21,7 @@ pipeline {
         }
         stage('display message webhook'){
             steps {
-                sh 'echo hello from Github'
+                echo 'hello from Github'
             }
         }
     }
