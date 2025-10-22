@@ -21,7 +21,7 @@ opipeline {
         }
         stage('display message webhook'){
             steps {
-                echo 'hello from Github'
+                echo 'hello webhook from Github'
             }
         }
     }
