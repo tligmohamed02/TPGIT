@@ -19,5 +19,10 @@ pipeline {
                 sh 'java -cp out net.mohamed.Main'
             }
         }
+        stage('display message webhook'){
+            steps {
+                sh 'echo hello from Github'
+            }
+        }
     }
 }
