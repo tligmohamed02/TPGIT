@@ -19,7 +19,7 @@ opipeline {
                 sh 'java -cp out net.mohamed.Main'
             }
         }
-        stage('display message webhook'){
+        stage('display message webhook') {
             steps {
                 echo 'hello webhook from Github'
             }
